@@ -35,14 +35,38 @@
         </nav>
         <ul class="ul-class header-ul header-ul-contact">
           <li class="header-contact-li">
-            <a href="mailto:info@devstudio.com" class="mail contact-info-head"
-              >info@devstudio.com</a
+            <a
+              href="mailto:info@devstudio.com"
+              class="mail-header-link mail contact-info-head"
             >
+              <svg
+                class="mail-header-icon"
+                width="16"
+                height="12"
+                aria-label="mail"
+                lang="en"
+              >
+                <use href="./images/sprites.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
           <li class="header-contact-li">
-            <a href="tel:+380961111111" class="tel-number contact-info-head"
-              >+38 096 111 11 11</a
+            <a
+              href="tel:+380961111111"
+              class="mail-header-link tel-number contact-info-head"
             >
+              <svg
+                class="mail-header-icon"
+                width="10"
+                height="16"
+                aria-label="smartphone"
+                lang="en"
+              >
+                <use href="./images/sprites.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
           </li>
         </ul>
       </div>
@@ -82,7 +106,7 @@
           </ul>
 
           <ul class="ul-class catalogue">
-            <li class="projects-ul projects-catalogue project-margin-bot">
+            <li class="projects-ul">
               <img
                 src="images/img-4-3.jpg"
                 alt="Picture of a laptop"
@@ -93,7 +117,7 @@
                 <p class="light-grey-text project-desc">Веб-сайт</p>
               </div>
             </li>
-            <li class="projects-ul projects-catalogue project-margin-bot">
+            <li class="projects-ul">
               <img
                 src="images/img-5-3.jpg"
                 alt="Picture of basketball players"
@@ -104,7 +128,7 @@
                 <p class="light-grey-text project-desc">Дизайн</p>
               </div>
             </li>
-            <li class="projects-ul project-margin-bot">
+            <li class="projects-ul">
               <img
                 src="images/img-6-3.jpg"
                 alt="Logo of a restaurant"
@@ -115,7 +139,7 @@
                 <p class="light-grey-text project-desc">Додаток</p>
               </div>
             </li>
-            <li class="projects-ul projects-catalogue project-margin-bot">
+            <li class="projects-ul">
               <img
                 src="images/img-7-3.jpg"
                 alt="Picture of headphones"
@@ -126,7 +150,7 @@
                 <p class="light-grey-text project-desc">Маркетинг</p>
               </div>
             </li>
-            <li class="projects-ul projects-catalogue project-margin-bot">
+            <li class="projects-ul">
               <img
                 src="images/img-8.jpg"
                 alt="Image of some boxes"
@@ -137,7 +161,7 @@
                 <p class="light-grey-text project-desc">Додаток</p>
               </div>
             </li>
-            <li class="projects-ul project-margin-bot">
+            <li class="projects-ul">
               <img
                 src="images/img-9.jpg"
                 alt="Picture of a desktop computer"
@@ -150,7 +174,7 @@
                 <p class="light-grey-text project-desc">Веб-сайт</p>
               </div>
             </li>
-            <li class="projects-ul projects-catalogue">
+            <li class="projects-ul">
               <img
                 src="images/img-10.jpg"
                 alt="Picture of a magazine"
@@ -161,7 +185,7 @@
                 <p class="light-grey-text project-desc">Дизайн</p>
               </div>
             </li>
-            <li class="projects-ul projects-catalogue">
+            <li class="projects-ul">
               <img
                 src="images/img-11.jpg"
                 alt="Picture of a label"
@@ -188,25 +212,84 @@
       </section>
     </main>
     <footer class="footer-class">
-      <div class="container">
-        <a href="" class="logo logo-footer"
-          >Web<span class="footer-logo">Studio</span></a
-        >
-        <address class="adress-class">
-          <p class="adress-info">м.Київ, пр-т Лесі Українки 26</p>
-          <ul class="ul-class contact-info">
+      <div class="container footer-container">
+        <div class="footer-adress-div">
+          <a href="" class="logo logo-footer"
+            >Web<span class="footer-logo">Studio</span></a
+          >
+          <address class="adress-class">
+            <p class="adress-info">м.Київ, пр-т Лесі Українки 26</p>
+            <ul class="ul-class contact-info">
+              <li class="mail-footer-li footer-contact">
+                <a href="mailto:info@devstudio.com" class="mail"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+380961111111" class="tel-number footer-contact"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-social-div">
+          <p class="join">ПРИЄДНУЙТЕСЬ</p>
+          <ul class="footer-social-list ul-class">
             <li>
-              <a href="mailto:info@devstudio.com" class="mail"
-                >info@devstudio.com</a
-              >
+              <a href="" class="footer-social-link">
+                <svg
+                  class="footer-social-icon"
+                  width="20"
+                  height="20"
+                  aria-label="instagram"
+                  lang="en"
+                >
+                  <use href="./images/sprites.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
             </li>
             <li>
-              <a href="tel:+380961111111" class="tel-number"
-                >+38 096 111 11 11</a
-              >
+              <a href="" class="footer-social-link">
+                <svg
+                  class="footer-social-icon"
+                  width="20"
+                  height="20"
+                  aria-label="twitter"
+                  lang="en"
+                >
+                  <use href="./images/sprites.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="footer-social-link">
+                <svg
+                  class="footer-social-icon"
+                  width="20"
+                  height="20"
+                  aria-label="facebook"
+                  lang="en"
+                >
+                  <use href="./images/sprites.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="footer-social-link">
+                <svg
+                  class="footer-social-icon"
+                  width="20"
+                  height="20"
+                  aria-label="linkedin"
+                  lang="en"
+                >
+                  <use href="./images/sprites.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
